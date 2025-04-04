@@ -6,19 +6,19 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Nunito', sans-serif;
     line-height: 1.6;
-    background-color: #f4f7fa;
-    color: #333;
+    background-color: #121212; /* Dark background */
+    color: #fff; /* White text for contrast */
 }
 
 /* Header Section */
 header {
-    background-color: #2a9d8f;
+    background-color: #121212;
     color: #fff;
     padding: 2rem 0;
     text-align: center;
-    border-bottom: 4px solid #e76f51;
+    border-bottom: 4px solid #32CD32; /* Vibrant Green Border */
     border-radius: 0 0 20px 20px;
 }
 
@@ -44,7 +44,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: #ff6347;
+    background-color: #32CD32;
     color: #fff;
 }
 
@@ -55,7 +55,7 @@ main {
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(to bottom right, #ff6347, #ff4500);
+    background: linear-gradient(to bottom right, #32CD32, #2E8B57);
     color: #fff;
     padding: 4rem 2rem;
     border-radius: 20px;
@@ -76,7 +76,7 @@ main {
 
 .hero button {
     background-color: #fff;
-    color: #ff6347;
+    color: #32CD32;
     font-size: 1.3rem;
     padding: 0.8rem 2rem;
     border: none;
@@ -86,31 +86,32 @@ main {
 }
 
 .hero button:hover {
-    background-color: #ff6347;
+    background-color: #32CD32;
     color: #fff;
 }
 
 /* Info Section */
 .info-section {
-    background-color: #fff;
+    background-color: #1f1f1f;
     padding: 2.5rem;
     margin-bottom: 3rem;
     border-radius: 20px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     text-align: center;
+    border: 2px solid #32CD32; /* Vibrant green border */
 }
 
 .info-section h2 {
     font-size: 2.5rem;
     margin-bottom: 1.5rem;
     font-weight: 600;
-    color: #2a9d8f;
+    color: #32CD32;
 }
 
 .info-section p {
     font-size: 1.3rem;
     margin-bottom: 1rem;
-    color: #666;
+    color: #ccc;
 }
 
 .info-section ul {
@@ -120,6 +121,7 @@ main {
     text-align: left;
     font-size: 1.1rem;
     margin-bottom: 2rem;
+    color: #ccc;
 }
 
 .info-section img {
@@ -142,24 +144,25 @@ main {
 .testimonials p {
     font-size: 1.4rem;
     font-style: italic;
-    color: #333;
+    color: #fff;
     margin-bottom: 1rem;
 }
 
 .testimonials p:nth-child(2) {
     font-size: 1.2rem;
-    color: #666;
+    color: #ccc;
 }
 
 /* Footer Section */
 footer {
-    background-color: #2a9d8f;
+    background-color: #121212;
     color: #fff;
     padding: 1.5rem;
     text-align: center;
     font-size: 1rem;
     margin-top: 3rem;
     border-radius: 20px 20px 0 0;
+    border-top: 2px solid #32CD32;
 }
 
 footer p {
@@ -173,7 +176,7 @@ a, button {
 
 /* Button Styles */
 button {
-    background-color: #ff6347;
+    background-color: #32CD32;
     color: #fff;
     padding: 0.8rem 2rem;
     font-size: 1.3rem;
@@ -183,7 +186,7 @@ button {
 }
 
 button:hover {
-    background-color: #ff4500;
+    background-color: #2E8B57;
     color: #fff;
 }
 
