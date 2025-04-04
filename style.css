@@ -90,6 +90,13 @@ main {
     color: #fff;
 }
 
+.hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 2rem;
+}
+
 /* Info Section */
 .info-section {
     background-color: #1f1f1f;
@@ -125,68 +132,4 @@ main {
 }
 
 .info-section img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 15px;
-    margin-top: 2rem;
-}
-
-.rounded-img {
-    border-radius: 15px;
-}
-
-/* Testimonials Section */
-.testimonials {
-    text-align: center;
-    margin-bottom: 3rem;
-}
-
-.testimonials p {
-    font-size: 1.4rem;
-    font-style: italic;
-    color: #fff;
-    margin-bottom: 1rem;
-}
-
-.testimonials p:nth-child(2) {
-    font-size: 1.2rem;
-    color: #ccc;
-}
-
-/* Footer Section */
-footer {
-    background-color: #121212;
-    color: #fff;
-    padding: 1.5rem;
-    text-align: center;
-    font-size: 1rem;
-    margin-top: 3rem;
-    border-radius: 20px 20px 0 0;
-    border-top: 2px solid #32CD32;
-}
-
-footer p {
-    margin: 0;
-}
-
-/* Smooth transition for hover effects */
-a, button {
-    transition: all 0.3s ease;
-}
-
-/* Button Styles */
-button {
-    background-color: #32CD32;
-    color: #fff;
-    padding: 0.8rem 2rem;
-    font-size: 1.3rem;
-    border: none;
-    border-radius: 40px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #2E8B57;
-    color: #fff;
-}
-
+    max-width
