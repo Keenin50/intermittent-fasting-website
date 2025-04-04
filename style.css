@@ -1,135 +1,84 @@
-/* General reset and body styling */
-* {
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #2b2b2b; /* Dark background */
+    color: #fff;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
-body {
-    font-family: 'Nunito', sans-serif;
-    line-height: 1.6;
-    background-color: #121212; /* Dark background */
-    color: #fff; /* White text for contrast */
-}
-
-/* Header Section */
-header {
-    background-color: #121212;
-    color: #fff;
-    padding: 2rem 0;
+h1, h2 {
     text-align: center;
-    border-bottom: 4px solid #32CD32; /* Vibrant Green Border */
-    border-radius: 0 0 20px 20px;
+    color: #00FF00; /* Vibrant green */
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
 }
 
 header h1 {
-    font-size: 3rem;
-    font-weight: 600;
-    margin-bottom: 0.5rem;
+    font-size: 3em;
+    margin: 0;
 }
 
-nav {
-    margin-top: 1rem;
+header p {
+    font-size: 1.2em;
+    color: #aaa;
 }
 
-nav a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 1rem;
-    font-size: 1.2rem;
-    font-weight: 400;
-    padding: 0.5rem;
-    border-radius: 20px;
-    transition: background-color 0.3s ease;
-}
-
-nav a:hover {
-    background-color: #32CD32;
-    color: #fff;
-}
-
-/* Main content styling */
-main {
-    padding: 3rem;
-}
-
-/* Hero Section */
-.hero {
-    background: linear-gradient(to bottom right, #32CD32, #2E8B57);
-    color: #fff;
-    padding: 4rem 2rem;
-    border-radius: 20px;
+/* Image Styles */
+.image-container {
     text-align: center;
-    margin-bottom: 3rem;
+    margin: 20px 0;
 }
 
-.hero h2 {
-    font-size: 2.8rem;
-    font-weight: 600;
-    margin-bottom: 1.5rem;
+img {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
 }
 
-.hero p {
-    font-size: 1.5rem;
-    margin-bottom: 2rem;
+/* Hover effect for images */
+img:hover {
+    transform: scale(1.05);
 }
 
-.hero button {
-    background-color: #fff;
-    color: #32CD32;
-    font-size: 1.3rem;
-    padding: 0.8rem 2rem;
-    border: none;
-    border-radius: 40px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, color 0.3s ease;
+/* Section Styles */
+section {
+    padding: 30px;
+    background-color: #222;
+    margin: 20px;
+    border-radius: 10px;
 }
 
-.hero button:hover {
-    background-color: #32CD32;
-    color: #fff;
+section#intro {
+    background-color: #444;
 }
 
-.hero img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 15px;
-    margin-top: 2rem;
+section#benefits {
+    background-color: #555;
 }
 
-/* Info Section */
-.info-section {
-    background-color: #1f1f1f;
-    padding: 2.5rem;
-    margin-bottom: 3rem;
-    border-radius: 20px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+section#plan {
+    background-color: #666;
+}
+
+section#testimonials {
+    background-color: #777;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    padding: 10px;
     text-align: center;
-    border: 2px solid #32CD32; /* Vibrant green border */
 }
 
-.info-section h2 {
-    font-size: 2.5rem;
-    margin-bottom: 1.5rem;
-    font-weight: 600;
-    color: #32CD32;
+footer p {
+    color: #aaa;
 }
-
-.info-section p {
-    font-size: 1.3rem;
-    margin-bottom: 1rem;
-    color: #ccc;
-}
-
-.info-section ul {
-    list-style-type: none;
-    margin-left: 0;
-    padding-left: 0;
-    text-align: left;
-    font-size: 1.1rem;
-    margin-bottom: 2rem;
-    color: #ccc;
-}
-
-.info-section img {
-    max-width
