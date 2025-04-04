@@ -6,23 +6,25 @@
 }
 
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poppins', sans-serif; /* Smooth Google font */
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
 }
 
-/* Header styles */
+/* Header Section */
 header {
-    background-color: #333;
+    background-color: #2a2a2a;
     color: #fff;
-    padding: 1rem;
+    padding: 2rem 0;
     text-align: center;
+    border-bottom: 2px solid #ff6347;
 }
 
 header h1 {
-    font-size: 2.5rem;
+    font-size: 3rem;
     margin-bottom: 0.5rem;
+    font-weight: 600;
 }
 
 nav {
@@ -33,7 +35,9 @@ nav a {
     color: #fff;
     text-decoration: none;
     margin: 0 1rem;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    transition: color 0.3s ease;
 }
 
 nav a:hover {
@@ -45,37 +49,129 @@ main {
     padding: 2rem;
 }
 
-h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-}
-
-section {
+/* Hero Section */
+.hero {
+    background: linear-gradient(to bottom right, #ff6347, #ff4500);
+    color: #fff;
+    padding: 3rem 2rem;
+    border-radius: 15px;
+    text-align: center;
     margin-bottom: 2rem;
 }
 
-section p {
+.hero h2 {
+    font-size: 2.5rem;
+    font-weight: 600;
     margin-bottom: 1rem;
 }
 
-ul {
-    list-style-type: square;
-    margin-left: 1.5rem;
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
 }
 
-/* Footer styling */
-footer {
-    background-color: #333;
+.hero button {
+    background-color: #fff;
+    color: #ff6347;
+    font-size: 1.2rem;
+    padding: 0.7rem 2rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.hero button:hover {
+    background-color: #ff6347;
     color: #fff;
-    padding: 1rem;
+}
+
+/* Info Section */
+.info-section {
+    background-color: #fff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
 }
 
-footer p {
-    font-size: 1rem;
+.info-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
 }
 
-/* Button styling */
+.info-section p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.info-section ul {
+    list-style-type: none;
+    margin-left: 0;
+    padding-left: 0;
+    text-align: left;
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+.info-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+/* Testimonials Section */
+.testimonials {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.testimonials p {
+    font-size: 1.3rem;
+    font-style: italic;
+    color: #333;
+    margin-bottom: 0.5rem;
+}
+
+.testimonials p:nth-child(2) {
+    font-size: 1.1rem;
+    color: #666;
+}
+
+/* Footer Section */
+footer {
+    background-color: #2a2a2a;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 3rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Smooth transition for hover effects */
+a, button {
+    transition: all 0.3s ease;
+}
+
+/* Button Styles */
 button {
     background-color: #ff6347;
-    color:
+    color: #fff;
+    padding: 0.7rem 1.5rem;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff4500;
+}
+
