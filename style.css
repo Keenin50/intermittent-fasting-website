@@ -1,0 +1,81 @@
+/* General reset and body styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+nav {
+    margin-top: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1.1rem;
+}
+
+nav a:hover {
+    color: #ff6347;
+}
+
+/* Main content styling */
+main {
+    padding: 2rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section p {
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 1.5rem;
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+/* Button styling */
+button {
+    background-color: #ff6347;
+    color:
